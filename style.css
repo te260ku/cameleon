@@ -1,0 +1,276 @@
+/* setting */
+html, body{
+   width: 100%;
+   height: 100%;
+ }
+ body{
+   margin: 0;
+   font-size: 14px;
+   font-family: arial, sans-serif;
+   color: #555;
+   background-color: #f5f5f5;
+ }
+ h1,h2,h3,h4,h5{
+   margin: 0;
+ }
+ a{
+   color: #3c9a43;
+   text-decoration: none
+ }
+ a:hover{
+   color: #3b9942;
+ }
+ ul{
+   margin:0;
+   padding:0;
+   list-style: none;
+ }
+ .clear{
+   clear: both;
+ }
+
+/*  */
+
+
+
+
+ /* header */
+ .header {
+  background: url(img/top-back.png);
+  background-size: cover;
+  background-position: center;
+  height: 610px;
+ }
+
+ .top-image img {
+   display: block;
+   margin: 0 auto;
+   width: 40%;
+   height: 100%;
+ }
+
+ .logo img {
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+ }
+
+
+ .bar{
+  position: relative;
+  width: 100%;
+  height: 42px;
+  margin-top:-42px;
+}
+.bar .back-default{
+  height: 34px;
+  background-color: #f5f5f5;
+}
+.bar-left{
+  float:left;
+  width: 50%;
+  height: 42px;
+  padding-right: 45px;
+  box-sizing: border-box;
+}
+.bar-left .inner{
+  margin-right: 45px;
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(left, #FF432B 0%, #FCB000 50%, #FFE720 100%);
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(left, #FF432B 0%, #FCB000 50%, #FFE720 100%);
+  /* Opera */
+  background-image: -o-linear-gradient(left, #FF432B 0%, #FCB000 50%, #FFE720 100%);
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FF432B), color-stop(0.5, #FCB000), color-stop(1, #FFE720));
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(left, #FF432B 0%, #FCB000 50%, #FFE720 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to right, #FF432B 0%, #FCB000 50%, #FFE720 100%);
+  width: 100%;
+  height: 8px;
+}
+.bar-center{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.bar-right{
+  float:left;
+  width: 50%;
+  height: 42px;
+  padding-left: 45px;
+  box-sizing: border-box;
+}
+.bar-right .inner{
+  margin-right: 45px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #005CE6), color-stop(0.5, #7200BD), color-stop(1, #EC00C5));
+  width: 100%;
+  height: 8px;
+}
+ /*  */
+
+
+
+ /* common with contents */
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  background-color: transparent;
+}
+
+.card-deck {
+  width: 75%;
+}
+
+.btn-lg {
+  background-color: #95c530;
+  box-shadow: 0px 4px 0px #719627;
+}
+.btn-lg span {
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+
+
+ /* features */
+
+ .card img {
+   margin: 20px auto;
+ }
+
+ /*  */
+
+
+
+ /* kind */
+ .kind {
+   background-color: #3b9942;
+ }
+ /*  */
+
+
+ /* back-1 */
+ .back-1 {
+   background-image: url(img/cameleon-back1.jpg);
+ }
+
+ .back-1 h2, .back-2 h2 {
+  font-size: 40px;
+  display: block;
+  padding-top: 230px;
+  line-height: 80px;
+ }
+ /*  */
+
+
+/* point */
+.point-sentence {
+  line-height: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+ /* back-2 */
+ .back-2 {
+   background-image: url(img/cameleon-back2.jpg);
+ }
+ /*  */
+
+
+
+ /* review */
+ .balloon {
+  position: relative;
+ display: inline-block;
+  margin: 1.5em 0;
+ padding: 20px 15px;
+ min-width: 120px;
+  max-width: 100%;
+ font-size: 16px;
+ background-color: white;
+}
+
+.balloon:before{
+ content: "";
+ position: absolute;
+ top: 100%;
+ left: 50%;
+  margin-left: -15px;
+ border: 15px solid transparent;
+ border-top: 15px solid white;
+}
+
+
+
+.customer-img img {
+  display: block;
+  margin: 15px auto;
+}
+
+.customer-info {
+  font-size: 12px;
+}
+
+.review .card-deck {
+  width: 90%;
+}
+ /*  */
+
+
+
+ /* footer */
+/* .footer {
+  background-color: #2d7531;
+  height: 150px;
+ }
+
+.footer p {
+  letter-spacing: 3px;
+  padding-top: 70px;
+} */
+
+
+.footer{
+  background-color: #2d7531;
+  position: relative;
+  text-align: center;
+}
+.footer .top-scroll{
+  position: absolute;
+  width: 100%;
+  margin-top: -41px;
+}
+.footer .top-scroll-image{
+  background-image: url(img/top-scroll.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  background-position: left;
+  border-radius: 100px;
+  border: 6px solid #f5f5f5;
+  margin: 0 auto;
+}
+.footer .top-scroll-image:hover{
+  background-position: right;
+}
+.footer .footer-content{
+  padding: 60px 0px;
+}
+.footer .footer-content .footer-item{
+  color: rgba(255,255,255,0.6);
+  font-size: 12px;
+  display: inline-block;
+  padding: 10px;
+}
+ /*  */
